@@ -5,7 +5,10 @@ function myAnimal() {
 function yourAnimal(){
   var myScope = yourAnimal();
   console.log("my`${animal}`and myScope");
-  return yourAniaml();
+  
+myScope();
+myanimal()
+
 }
 function add2(n) {
   var number = 'n';
